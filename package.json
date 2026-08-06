@@ -17,6 +17,8 @@
     "web-vitals": "^5.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "BROWSER=none PORT=4200 react-scripts start",
     "build": "rm -rf build && react-scripts build",
     "test": "react-scripts test",
