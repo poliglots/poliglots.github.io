@@ -1,73 +1,73 @@
 [
   {
     "id": 1,
-    "name": "LLM RAG API Service",
-    "description": "Production-grade retrieval-augmented generation service over enterprise knowledge bases. Evaluated Pinecone vs Qdrant — chose Qdrant for sub-10ms retrieval at 1M+ docs at one-third the cost. Serves 10K+ queries/day at p99 < 400ms across multi-tenant document ingestion and vector retrieval.",
-    "tech": ["Python", "FastAPI", "LangChain", "Qdrant", "OpenAI API", "PostgreSQL", "Docker"],
+    "name": "Microservices Gateway (Go)",
+    "description": "High-performance API gateway built with Go + gRPC — routing 100K+ requests/sec across 20+ microservices with sub-5ms overhead. Features circuit breaking, rate limiting, and distributed tracing via OpenTelemetry.",
+    "tech": ["Go", "gRPC", "Go Fiber", "OpenTelemetry", "Redis", "Kubernetes"],
     "github": "",
     "live": ""
   },
   {
     "id": 2,
-    "name": "Real-time ETL Pipeline",
-    "description": "Event-driven data pipeline ingesting, transforming, and routing high-volume streams from disparate sources — processing 50M+ events/day with sub-second latency SLAs and zero-downtime deploys.",
-    "tech": ["Python", "Node.js", "Kafka", "PySpark", "FastAPI", "TimescaleDB", "Prometheus"],
+    "name": "Real-time Data Pipeline",
+    "description": "Python-powered ETL pipeline ingesting 50M+ events/day from Kafka streams — transforms and loads into TimescaleDB with PySpark, enabling real-time analytics with sub-second query latency and automated Airflow orchestration.",
+    "tech": ["Python", "PySpark", "Kafka", "Airflow", "TimescaleDB", "Prometheus"],
     "github": "",
     "live": ""
   },
   {
     "id": 3,
-    "name": "Identity and Access Management",
-    "description": "Enterprise IAM with SSO, MFA, RBAC, and least-privilege access for HIPAA compliance. Rejected vendor solutions (Okta, Auth0) and built in-house to meet data-residency and audit-granularity requirements at one-third the TCO — serving 50K+ daily active users at 99.99% uptime.",
-    "tech": ["Node.js", "Passport.js", "Redis", "AWS RDS", "EKS", "OAuth 2.0", "RBAC"],
+    "name": "Enterprise Dashboard (TypeScript)",
+    "description": "Full TypeScript/React SPA with ECharts visualizations — real-time monitoring of 5,000+ IoT devices across 12 factories. Features role-based access, WebSocket live updates, and responsive design for mobile and desktop.",
+    "tech": ["TypeScript", "React", "ECharts", "TailwindCSS", "WebSocket", "Node.js"],
     "github": "",
     "live": ""
   },
   {
     "id": 4,
-    "name": "Integrated Data Lake",
-    "description": "Authoritative data store processing 12TB+ daily across 6 previously siloed sources — powering analytics, BI, and ML while cutting time-to-insight from 3 days to under 4 hours.",
-    "tech": ["Python", "PySpark", "boto3", "AWS S3", "AWS Glue", "AWS EMR", "AWS Lake Formation"],
+    "name": "IoT Telemetry Platform",
+    "description": "Go-based telemetry ingestion service processing 50M+ events/day from MQTT endpoints — buffered through Kafka, persisted in Cassandra and DynamoDB, with real-time alerting via gRPC streaming to TypeScript dashboards.",
+    "tech": ["Go", "Kafka", "MQTT", "Cassandra", "DynamoDB", "gRPC"],
     "github": "",
     "live": ""
   },
   {
     "id": 5,
-    "name": "Industrial IoT Platform",
-    "description": "Multi-protocol IoT platform ingesting from 5,000+ machines across 12 factories at 50M+ events/day. Selected Kafka over RabbitMQ after load-testing at 10× projected throughput; chose TimescaleDB over InfluxDB for SQL compatibility with existing BI tooling.",
-    "tech": ["Node.js", "Python", "MQTT", "Kafka", "TimescaleDB", "DynamoDB", "Cassandra"],
+    "name": "Identity & Access Management",
+    "description": "Microservices-based IAM with SSO, MFA, and RBAC for HIPAA compliance. Built with Go for auth services, Node.js + TypeScript for admin UI — serving 50K+ daily active users at 99.99% uptime at one-third vendor TCO.",
+    "tech": ["Go", "Node.js", "TypeScript", "React", "OAuth 2.0", "PostgreSQL"],
     "github": "",
     "live": ""
   },
   {
     "id": 6,
-    "name": "Cloud Access Security Broker",
-    "description": "CASB scanning 200+ cloud APIs and intercepting 15K+ daily shadow IT requests — flagging 95% of unauthorized data flows via API scanning and forward proxy interception before remediation.",
-    "tech": ["Python", "Flask", "API Scanning", "Forward Proxy"],
+    "name": "Integrated Data Lake",
+    "description": "Python-driven data lake on AWS processing 12TB+ daily across 6 siloed sources — PySpark ETL pipelines, Airflow orchestration, S3 raw zone with Glue catalog for BI and ML consumption. Reduced time-to-insight from 3 days to 4 hours.",
+    "tech": ["Python", "PySpark", "Airflow", "AWS S3", "AWS Glue", "Pandas"],
     "github": "",
     "live": ""
   },
   {
     "id": 7,
-    "name": "Television Viewership Analytics",
-    "description": "Analytics platform processing 500M+ viewer events per day across 20+ broadcaster and advertiser clients — delivering viewer demographics, ratings, reach, and engagement metrics for data-driven programming decisions.",
-    "tech": ["Python", "PySpark", "Pandas", "Kafka", "Data Pipelines", "Analytics"],
+    "name": "E-commerce Platform",
+    "description": "TypeScript-first full-stack e-commerce with React frontend and Node.js/Express backend — integrated 8 payment/logistics partners, driving $2M+ GMV. TypeScript type system reduced production bugs by 40%.",
+    "tech": ["TypeScript", "React", "Node.js", "Express", "PostgreSQL", "REST APIs"],
     "github": "",
     "live": ""
   },
   {
     "id": 8,
-    "name": "E-commerce Platform",
-    "description": "Full-stack e-commerce platform integrated with 8 payment and logistics partners — driving $2M+ GMV within 12 months of launch across presentation, business logic, data, and security layers.",
-    "tech": ["Node.js", "Express", "ReactJS", "PostgreSQL", "REST APIs"],
+    "name": "Analytics Dashboard",
+    "description": "TypeScript/React analytics platform processing 500M+ viewer events/day — interactive ECharts visualizations for demographics, ratings, and engagement metrics. Sub-2s load time with server-side data aggregation via Python + Pandas.",
+    "tech": ["TypeScript", "React", "ECharts", "Python", "Pandas", "PostgreSQL"],
     "github": "",
     "live": ""
   },
   {
     "id": 9,
-    "name": "ERP Inventory Management",
-    "description": "Enterprise ERP consolidating 8 legacy systems into a single source of truth — reducing month-end close time from 5 days to 4 hours across accounting, procurement, supply chain, and project management.",
-    "tech": ["Python", "Flask", "PostgreSQL", "SQLAlchemy", "REST APIs"],
+    "name": "ERP Inventory System",
+    "description": "Python/FastAPI backend with TypeScript/React frontend — consolidating 8 legacy systems into unified inventory and supply chain management. Automated month-end close from 5 days to 4 hours with real-time stock reconciliation.",
+    "tech": ["Python", "FastAPI", "TypeScript", "React", "PostgreSQL", "SQLAlchemy"],
     "github": "",
     "live": ""
   }
