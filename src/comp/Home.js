@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { MarkGithubIcon } from '@primer/octicons-react';
 
-const badges = ['AI / LLM', 'Full Stack', 'MicroServices', 'Security', 'Streaming', 'Cloud'];
+const badges = ['Go Microservices', 'TypeScript', 'Data Pipelines', 'Cloud Native', 'Real-time Systems', 'Kubernetes'];
 
 const stats = [
     { value: '14+', label: 'yrs exp' },
@@ -27,8 +27,8 @@ export default function Home({ theme }) {
                     <p className="home-eyebrow">Staff Software Engineer</p>
                     <h1 className="home-title">polyglot.dev</h1>
                     <p className="home-tagline">
-                        Building AI-powered distributed systems with Python &amp; Node.js.
-                        From LLM APIs and RAG pipelines to real-time data platforms at scale.
+                        Senior Engineer specializing in Go microservices, TypeScript frontends, and Python data pipelines.
+                        Building scalable systems from real-time streams to interactive dashboards.
                     </p>
                     <div className="home-stats">
                         {stats.map((s, i) => (
@@ -46,7 +46,7 @@ export default function Home({ theme }) {
                     <div className="home-building">
                         <span className="home-building-dot" />
                         <span className="home-building-text">
-                            Building: LLM observability pipeline with Python &amp; Node.js
+                            Building: High-performance Go microservices with gRPC and TypeScript dashboards
                         </span>
                     </div>
                     <div className="home-links">
