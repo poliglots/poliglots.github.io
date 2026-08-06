@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "role": "Software Engineer",
+    "duration": "2017 – Present",
+    "highlights": [
+      "Rejected two vendor IAM solutions in favour of a Node.js + Passport.js build — meeting HIPAA data-residency and audit-granularity requirements at one-third the projected TCO; system serves 50K+ daily active users at 99.99% uptime.",
+      "Built an Integrated Data Lake on AWS (S3, Glue, EMR) using Python and PySpark processing 12TB+ daily across 6 previously siloed sources — cutting time-to-insight from 3 days to under 4 hours.",
+      "Built an Industrial IoT platform using Node.js and Python ingesting from 5,000+ machines across 12 factories at 50M+ events/day — selected Kafka over RabbitMQ after 10× load-testing; sub-100ms edge response.",
+      "Defined the 3-year platform roadmap; standardised REST and event-driven API design guidelines adopted by 8 teams; led 3 cross-functional squads of 12 engineers across a $4M+ annual budget.",
+      "Owned SLO framework across 12 microservices; served as incident commander for P0 events — drove MTTR from 4 hours to 22 minutes through structured post-mortem and runbook practice.",
+      "Right-sized AWS infrastructure and migrated to reserved instances — reducing annual cloud spend by $320K (28%); reduced critical CVE exposure by 90% across 40+ services.",
+      "Designed system design interview rubric; conducted 50+ technical screens; grew engineering org from 6 to 18 over 3 years while mentoring 6 engineers to senior and staff promotions."
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Software Engineer",
+    "duration": "2011 – 2017",
+    "highlights": [
+      "Built a Cloud Access Security Broker (CASB) using Python and Flask scanning 200+ cloud APIs and intercepting 15K+ daily shadow IT requests — flagging 95% of unauthorized data flows before remediation.",
+      "Developed a Television Viewership analytics platform using Python, PySpark, and Kafka processing 500M+ viewer events per day across 20+ broadcaster and advertiser clients.",
+      "Built a full-stack E-commerce platform using Node.js, Express, and React integrated with 8 payment and logistics partners — driving $2M+ GMV within 12 months of launch.",
+      "Delivered an ERP system using Python, Flask, and SQLAlchemy consolidating 8 legacy systems into a single source of truth, reducing month-end close time from 5 days to 4 hours.",
+      "Led a team of 6 engineers across 3 concurrent client engagements; maintained 98% on-time delivery; established code review standards and QA practices adopted across the delivery unit."
+    ]
+  }
+]

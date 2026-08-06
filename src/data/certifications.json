@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "AWS Certified Solutions Architect – Professional",
+    "issuer": "Amazon Web Services",
+    "year": 2023,
+    "category": "Cloud"
+  },
+  {
+    "id": 2,
+    "name": "AWS Certified Developer – Associate",
+    "issuer": "Amazon Web Services",
+    "year": 2022,
+    "category": "Cloud"
+  },
+  {
+    "id": 3,
+    "name": "AWS Certified Data Engineer – Associate",
+    "issuer": "Amazon Web Services",
+    "year": 2023,
+    "category": "Data"
+  },
+  {
+    "id": 4,
+    "name": "Certified Kubernetes Administrator (CKA)",
+    "issuer": "Cloud Native Computing Foundation",
+    "year": 2022,
+    "category": "DevOps"
+  },
+  {
+    "id": 5,
+    "name": "HashiCorp Certified: Terraform Associate",
+    "issuer": "HashiCorp",
+    "year": 2022,
+    "category": "DevOps"
+  },
+  {
+    "id": 6,
+    "name": "Professional Scrum Master I (PSM I)",
+    "issuer": "Scrum.org",
+    "year": 2020,
+    "category": "Agile"
+  }
+]

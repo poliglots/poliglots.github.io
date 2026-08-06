@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "repo": "apache/kafka",
+    "description": "Fixed consumer group rebalance edge case under high partition churn",
+    "type": "PR",
+    "link": "https://github.com/apache/kafka"
+  },
+  {
+    "id": 2,
+    "repo": "fastapi/fastapi",
+    "description": "Improved request body validation error messages for nested models",
+    "type": "PR",
+    "link": "https://github.com/fastapi/fastapi"
+  },
+  {
+    "id": 3,
+    "repo": "apache/spark",
+    "description": "Improved documentation for structured streaming watermark behavior",
+    "type": "Docs",
+    "link": "https://github.com/apache/spark"
+  },
+  {
+    "id": 4,
+    "repo": "mlflow/mlflow",
+    "description": "Reported and triaged model artifact versioning inconsistency",
+    "type": "Issue",
+    "link": "https://github.com/mlflow/mlflow"
+  },
+  {
+    "id": 5,
+    "repo": "expressjs/express",
+    "description": "Fixed async error propagation when next() is called inside a Promise chain",
+    "type": "PR",
+    "link": "https://github.com/expressjs/express"
+  },
+  {
+    "id": 6,
+    "repo": "pydantic/pydantic",
+    "description": "Reported discriminated union resolution failure with optional nested fields",
+    "type": "Issue",
+    "link": "https://github.com/pydantic/pydantic"
+  },
+  {
+    "id": 7,
+    "repo": "langchain-ai/langchain",
+    "description": "Added metadata filtering support to the Qdrant vector store retriever",
+    "type": "PR",
+    "link": "https://github.com/langchain-ai/langchain"
+  },
+  {
+    "id": 8,
+    "repo": "nestjs/nest",
+    "description": "Clarified lifecycle hooks execution order in module teardown documentation",
+    "type": "Docs",
+    "link": "https://github.com/nestjs/nest"
+  }
+]

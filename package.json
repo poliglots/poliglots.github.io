@@ -1,0 +1,46 @@
+{
+  "homepage": ".",
+  "name": "profile",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@primer/octicons-react": "^19.18.0",
+    "@primer/react": "^37.31.0",
+    "echarts": "^6.0.0",
+    "purecss": "^3.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.2",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.19",
+    "three": "^0.180.0",
+    "web-vitals": "^5.1.0"
+  },
+  "scripts": {
+    "start": "BROWSER=none PORT=4200 react-scripts start",
+    "build": "rm -rf build && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

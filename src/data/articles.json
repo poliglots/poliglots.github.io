@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Building Production RAG Pipelines with FastAPI and LangChain",
+    "publication": "Towards Data Science",
+    "type": "Article",
+    "year": 2024,
+    "link": ""
+  },
+  {
+    "id": 2,
+    "title": "Event-Driven Architecture at Scale: Lessons from 5,000 IoT Devices",
+    "publication": "Medium Engineering",
+    "type": "Article",
+    "year": 2024,
+    "link": ""
+  },
+  {
+    "id": 3,
+    "title": "From Monolith to Microservices: A Node.js Migration Playbook",
+    "publication": "NodeConf EU",
+    "type": "Talk",
+    "year": 2023,
+    "link": ""
+  },
+  {
+    "id": 4,
+    "title": "Taming Data Lakes: AWS Glue + PySpark at Production Scale",
+    "publication": "AWS Community Builders",
+    "type": "Article",
+    "year": 2023,
+    "link": ""
+  },
+  {
+    "id": 5,
+    "title": "Designing IAM Systems for HIPAA-Compliant Distributed Applications",
+    "publication": "InfoQ",
+    "type": "Article",
+    "year": 2022,
+    "link": ""
+  }
+]

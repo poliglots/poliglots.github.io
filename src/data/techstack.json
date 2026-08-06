@@ -1,0 +1,262 @@
+[
+  {
+    "name": "BackEnd",
+    "children": [
+      {
+        "name": "NodeJS",
+        "itemStyle": {
+          "color": "#de1858"
+        },
+        "children": [
+          {
+            "name": "Express",
+            "value": 2,
+            "itemStyle": {
+              "color": "#3ba272"
+            }
+          },
+          {
+            "name": "GraphQL",
+            "value": 4,
+            "itemStyle": {
+              "color": "#a4b24f"
+            }
+          },
+          {
+            "name": "NestJS",
+            "value": 4,
+            "itemStyle": {
+              "color": "#e0234e"
+            }
+          },
+          {
+            "name": "Prisma",
+            "value": 3,
+            "itemStyle": {
+              "color": "#2d3748"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Python",
+        "itemStyle": {
+          "color": "#3572A5"
+        },
+        "children": [
+          {
+            "name": "FastAPI",
+            "value": 4,
+            "itemStyle": {
+              "color": "#009688"
+            }
+          },
+          {
+            "name": "SQLAlchemy",
+            "value": 3,
+            "itemStyle": {
+              "color": "#d13f31"
+            }
+          },
+          {
+            "name": "Pydantic",
+            "value": 3,
+            "itemStyle": {
+              "color": "#e92063"
+            }
+          },
+          {
+            "name": "Celery",
+            "value": 2,
+            "itemStyle": {
+              "color": "#37814a"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "BigData",
+    "itemStyle": {
+      "color": "#9a60b4"
+    },
+    "children": [
+      {
+        "name": "Streaming",
+        "itemStyle": {
+          "color": "#9a60b4"
+        },
+        "children": [
+          {
+            "name": "Kafka",
+            "value": 5,
+            "itemStyle": {
+              "color": "#de1c93"
+            }
+          },
+          {
+            "name": "RabbitMQ",
+            "value": 4,
+            "itemStyle": {
+              "color": "#ff6600"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Analytics",
+        "itemStyle": {
+          "color": "#9a60b4"
+        },
+        "children": [
+          {
+            "name": "Spark",
+            "value": 5,
+            "itemStyle": {
+              "color": "#a14e93"
+            }
+          },
+          {
+            "name": "Cassandra",
+            "value": 5,
+            "itemStyle": {
+              "color": "#ac1e93"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FrontEnd",
+    "itemStyle": {
+      "color": "#82312c"
+    },
+    "children": [
+      {
+        "name": "Next.js",
+        "value": 4,
+        "itemStyle": {
+          "color": "#d4604c"
+        }
+      },
+      {
+        "name": "tailwindcss",
+        "value": 2,
+        "itemStyle": {
+          "color": "#008acd"
+        }
+      },
+      {
+        "name": "ECharts",
+        "value": 3,
+        "itemStyle": {
+          "color": "#ffb980"
+        }
+      },
+      {
+        "name": "ReactJS",
+        "value": 3,
+        "itemStyle": {
+          "color": "#ccb980"
+        }
+      }
+    ]
+  },
+  {
+    "name": "ML & Cloud",
+    "itemStyle": {
+      "color": "#d16d05"
+    },
+    "children": [
+      {
+        "name": "AI / ML",
+        "itemStyle": {
+          "color": "#d16d05"
+        },
+        "children": [
+          {
+            "name": "PyTorch",
+            "value": 5,
+            "itemStyle": {
+              "color": "#d29d05"
+            }
+          },
+          {
+            "name": "MLFlow",
+            "value": 5,
+            "itemStyle": {
+              "color": "#cadd05"
+            }
+          },
+          {
+            "name": "vLLM",
+            "value": 5,
+            "itemStyle": {
+              "color": "#123d05"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cloud",
+        "itemStyle": {
+          "color": "#d16d05"
+        },
+        "children": [
+          {
+            "name": "Terraform",
+            "value": 5,
+            "itemStyle": {
+              "color": "#1b2345"
+            }
+          },
+          {
+            "name": "AWS",
+            "value": 4,
+            "itemStyle": {
+              "color": "#2088ff"
+            }
+          },
+          {
+            "name": "GCP",
+            "value": 4,
+            "itemStyle": {
+              "color": "#f5a623"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Database",
+    "itemStyle": {
+      "color": "#6b3fa0"
+    },
+    "children": [
+      {
+        "name": "PostgreSQL",
+        "value": 5,
+        "itemStyle": {
+          "color": "#336791"
+        }
+      },
+      {
+        "name": "Redis",
+        "value": 5,
+        "itemStyle": {
+          "color": "#dc382d"
+        }
+      },
+      {
+        "name": "MongoDB",
+        "value": 3,
+        "itemStyle": {
+          "color": "#47a248"
+        }
+      }
+    ]
+  }
+]

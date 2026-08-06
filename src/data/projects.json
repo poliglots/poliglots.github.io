@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "LLM RAG API Service",
+    "description": "Production-grade retrieval-augmented generation service over enterprise knowledge bases. Evaluated Pinecone vs Qdrant — chose Qdrant for sub-10ms retrieval at 1M+ docs at one-third the cost. Serves 10K+ queries/day at p99 < 400ms across multi-tenant document ingestion and vector retrieval.",
+    "tech": ["Python", "FastAPI", "LangChain", "Qdrant", "OpenAI API", "PostgreSQL", "Docker"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 2,
+    "name": "Real-time ETL Pipeline",
+    "description": "Event-driven data pipeline ingesting, transforming, and routing high-volume streams from disparate sources — processing 50M+ events/day with sub-second latency SLAs and zero-downtime deploys.",
+    "tech": ["Python", "Node.js", "Kafka", "PySpark", "FastAPI", "TimescaleDB", "Prometheus"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 3,
+    "name": "Identity and Access Management",
+    "description": "Enterprise IAM with SSO, MFA, RBAC, and least-privilege access for HIPAA compliance. Rejected vendor solutions (Okta, Auth0) and built in-house to meet data-residency and audit-granularity requirements at one-third the TCO — serving 50K+ daily active users at 99.99% uptime.",
+    "tech": ["Node.js", "Passport.js", "Redis", "AWS RDS", "EKS", "OAuth 2.0", "RBAC"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 4,
+    "name": "Integrated Data Lake",
+    "description": "Authoritative data store processing 12TB+ daily across 6 previously siloed sources — powering analytics, BI, and ML while cutting time-to-insight from 3 days to under 4 hours.",
+    "tech": ["Python", "PySpark", "boto3", "AWS S3", "AWS Glue", "AWS EMR", "AWS Lake Formation"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 5,
+    "name": "Industrial IoT Platform",
+    "description": "Multi-protocol IoT platform ingesting from 5,000+ machines across 12 factories at 50M+ events/day. Selected Kafka over RabbitMQ after load-testing at 10× projected throughput; chose TimescaleDB over InfluxDB for SQL compatibility with existing BI tooling.",
+    "tech": ["Node.js", "Python", "MQTT", "Kafka", "TimescaleDB", "DynamoDB", "Cassandra"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 6,
+    "name": "Cloud Access Security Broker",
+    "description": "CASB scanning 200+ cloud APIs and intercepting 15K+ daily shadow IT requests — flagging 95% of unauthorized data flows via API scanning and forward proxy interception before remediation.",
+    "tech": ["Python", "Flask", "API Scanning", "Forward Proxy"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 7,
+    "name": "Television Viewership Analytics",
+    "description": "Analytics platform processing 500M+ viewer events per day across 20+ broadcaster and advertiser clients — delivering viewer demographics, ratings, reach, and engagement metrics for data-driven programming decisions.",
+    "tech": ["Python", "PySpark", "Pandas", "Kafka", "Data Pipelines", "Analytics"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 8,
+    "name": "E-commerce Platform",
+    "description": "Full-stack e-commerce platform integrated with 8 payment and logistics partners — driving $2M+ GMV within 12 months of launch across presentation, business logic, data, and security layers.",
+    "tech": ["Node.js", "Express", "ReactJS", "PostgreSQL", "REST APIs"],
+    "github": "",
+    "live": ""
+  },
+  {
+    "id": 9,
+    "name": "ERP Inventory Management",
+    "description": "Enterprise ERP consolidating 8 legacy systems into a single source of truth — reducing month-end close time from 5 days to 4 hours across accounting, procurement, supply chain, and project management.",
+    "tech": ["Python", "Flask", "PostgreSQL", "SQLAlchemy", "REST APIs"],
+    "github": "",
+    "live": ""
+  }
+]
