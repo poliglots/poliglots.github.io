@@ -15,12 +15,12 @@ const skills = [
     {
         category: 'Full Stack',
         score: 80,
-        techs: ['Node.js', 'Python', 'TypeScript', 'React', 'Next.js', 'GraphQL', 'REST'],
+        techs: ['Java Spring', 'Python', 'TypeScript', 'React', 'Next.js', 'GraphQL', 'REST'],
     },
     {
         category: 'MicroServices',
         score: 78,
-        techs: ['Express', 'NestJS', 'FastAPI', 'gRPC', 'Docker', 'Kubernetes', 'OAuth 2.0', 'OpenTelemetry'],
+        techs: ['Spring Boot', 'Spring Cloud', 'Spring Security', 'gRPC', 'Docker', 'Kubernetes', 'OAuth 2.0', 'OpenTelemetry'],
     },
     {
         category: 'Streaming',

@@ -29,7 +29,7 @@ export default function Domains({ theme }) {
                 <div id="ecDomains" className="domains-chart" />
             </div>
             <div className="pure-u-1 pure-u-lg-1-2 domains-list-col">
-                <h2 className="page-title">Domains</h2>
+                {/* <h2 className="page-title">Domains</h2> */}
                 {json.categories.map((cat, i) => {
                     const nodes = nodesByCategory.get(i) ?? [];
                     const color = colors[i];

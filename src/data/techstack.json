@@ -3,66 +3,51 @@
     "name": "Microservices",
     "children": [
       {
-        "name": "Golang",
+        "name": "Java Spring",
         "itemStyle": {
-          "color": "#00ADD8"
+          "color": "#dc382d"
         },
         "children": [
           {
-            "name": "gRPC",
+            "name": "Spring Boot",
             "value": 5,
             "itemStyle": {
               "color": "#e0234e"
             }
           },
           {
-            "name": "Go Fiber",
-            "value": 4,
+            "name": "Spring Cloud",
+            "value": 5,
             "itemStyle": {
               "color": "#a4b24f"
             }
           },
           {
-            "name": "Go Kit",
-            "value": 3,
+            "name": "Spring Security",
+            "value": 4,
             "itemStyle": {
               "color": "#3ba272"
             }
           },
           {
-            "name": "Gin",
+            "name": "Spring Data",
             "value": 4,
             "itemStyle": {
               "color": "#2d3748"
             }
-          }
-        ]
-      },
-      {
-        "name": "Node.js",
-        "itemStyle": {
-          "color": "#3572A5"
-        },
-        "children": [
+          },
           {
-            "name": "NestJS",
-            "value": 4,
+            "name": "gRPC",
+            "value": 5,
             "itemStyle": {
-              "color": "#e0234e"
+              "color": "#00ADD8"
             }
           },
           {
-            "name": "Express",
+            "name": "Spring Actuator",
             "value": 3,
             "itemStyle": {
-              "color": "#3ba272"
-            }
-          },
-          {
-            "name": "Fastify",
-            "value": 3,
-            "itemStyle": {
-              "color": "#009688"
+              "color": "#f5a623"
             }
           }
         ]

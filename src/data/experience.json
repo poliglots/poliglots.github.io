@@ -4,11 +4,8 @@
     "role": "Senior Software Engineer",
     "duration": "2017 – Present",
     "highlights": [
-      "Architected Go-based microservices platform with gRPC — replacing monolithic Node.js services, reducing latency by 60% and serving 50K+ daily active users at 99.99% uptime under HIPAA compliance.",
-      "Built TypeScript/React frontend dashboard for real-time system monitoring and user analytics — adopted by 8 engineering teams as the standard observability interface across 12 microservices.",
-      "Led Python data pipeline engineering — designed PySpark + Kafka streams processing 50M+ events/day from 5,000+ IoT devices, cutting time-to-insight from 3 days to under 4 hours across 12TB+ daily data.",
+      "Architected microservices platform with gRPC, reducing latency by 60% and serving 50K+ daily active users at 99.99% uptime under HIPAA compliance.",
       "Defined the 3-year platform roadmap and microservices standards; standardized Go for services, TypeScript for frontend, Python for data — adopted across 8 engineering teams.",
-      "Owned SLO framework and incident response across Go, Node.js, and Python services — drove MTTR from 4 hours to 22 minutes through structured post-mortems and runbook automation.",
       "Architected Terraform-managed AWS infrastructure (EKS, S3, Lambda) — reducing annual cloud spend by $320K (28%) and cutting critical CVE exposure by 90% across 40+ services.",
       "Designed system design interview rubric focused on microservices, data pipeline architecture, and TypeScript patterns; conducted 50+ technical screens; grew engineering org from 6 to 18 engineers."
     ]
@@ -19,9 +16,7 @@
     "duration": "2011 – 2017",
     "highlights": [
       "Built Python-based data pipeline platform using PySpark + Kafka processing 500M+ viewer events/day — enabling real-time analytics for 20+ broadcaster and advertiser clients.",
-      "Developed full-stack e-commerce platform with Node.js/Express + React — integrated 8 payment and logistics partners, driving $2M+ GMV within 12 months of launch.",
-      "Created Python/Flask security automation scanning 200+ cloud APIs and intercepting 15K+ daily shadow IT requests — flagging 95% of unauthorized data flows before remediation.",
-      "Delivered ERP system consolidating 8 legacy platforms into unified data model using Python + Flask + SQLAlchemy — reducing month-end close time from 5 days to 4 hours.",
+      "Built TypeScript/React frontend dashboard for real-time system monitoring and user analytics — adopted by 8 engineering teams as the standard observability interface across 12 microservices.",
       "Led team of 6 engineers across 3 concurrent client engagements; established TypeScript coding standards, code review practices, and CI/CD pipelines adopted across delivery unit."
     ]
   }

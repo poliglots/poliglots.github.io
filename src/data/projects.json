@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Microservices Gateway (Go)",
+    "name": "Microservices Gateway",
     "description": "High-performance API gateway built with Go + gRPC — routing 100K+ requests/sec across 20+ microservices with sub-5ms overhead. Features circuit breaking, rate limiting, and distributed tracing via OpenTelemetry.",
-    "tech": ["Go", "gRPC", "Go Fiber", "OpenTelemetry", "Redis", "Kubernetes"],
+    "tech": ["Go", "gRPC", "OpenTelemetry", "Redis", "Kubernetes"],
     "github": "",
     "live": ""
   },
   {
     "id": 2,
     "name": "Real-time Data Pipeline",
-    "description": "Python-powered ETL pipeline ingesting 50M+ events/day from Kafka streams — transforms and loads into TimescaleDB with PySpark, enabling real-time analytics with sub-second query latency and automated Airflow orchestration.",
-    "tech": ["Python", "PySpark", "Kafka", "Airflow", "TimescaleDB", "Prometheus"],
+    "description": "Spark-powered ETL pipeline ingesting 50M+ events/day from Kafka streams — transforms and loads into TimescaleDB with Spark, enabling real-time analytics with sub-second query latency and automated Airflow orchestration.",
+    "tech": ["Spark", "Kafka", "Airflow", "TimescaleDB", "Prometheus"],
     "github": "",
     "live": ""
   },
@@ -26,48 +26,24 @@
   {
     "id": 4,
     "name": "IoT Telemetry Platform",
-    "description": "Go-based telemetry ingestion service processing 50M+ events/day from MQTT endpoints — buffered through Kafka, persisted in Cassandra and DynamoDB, with real-time alerting via gRPC streaming to TypeScript dashboards.",
-    "tech": ["Go", "Kafka", "MQTT", "Cassandra", "DynamoDB", "gRPC"],
+    "description": "Java-based telemetry ingestion service processing 50M+ events/day from MQTT endpoints — buffered through Kafka, persisted in Cassandra and DynamoDB, with real-time alerting via gRPC streaming to TypeScript/React dashboards.",
+    "tech": ["Java", "Kafka", "MQTT", "Cassandra", "DynamoDB", "gRPC"],
     "github": "",
     "live": ""
   },
   {
     "id": 5,
     "name": "Identity & Access Management",
-    "description": "Microservices-based IAM with SSO, MFA, and RBAC for HIPAA compliance. Built with Go for auth services, Node.js + TypeScript for admin UI — serving 50K+ daily active users at 99.99% uptime at one-third vendor TCO.",
-    "tech": ["Go", "Node.js", "TypeScript", "React", "OAuth 2.0", "PostgreSQL"],
+    "description": "Microservices-based IAM with SSO, MFA, and RBAC for HIPAA compliance. Built with Java for auth services, TypeScript + React for admin UI — serving 50K+ daily active users at 99.99% uptime at one-third vendor TCO.",
+    "tech": ["Java", "Spring Boot", "TypeScript", "React", "OAuth 2.0", "PostgreSQL"],
     "github": "",
     "live": ""
   },
   {
     "id": 6,
     "name": "Integrated Data Lake",
-    "description": "Python-driven data lake on AWS processing 12TB+ daily across 6 siloed sources — PySpark ETL pipelines, Airflow orchestration, S3 raw zone with Glue catalog for BI and ML consumption. Reduced time-to-insight from 3 days to 4 hours.",
-    "tech": ["Python", "PySpark", "Airflow", "AWS S3", "AWS Glue", "Pandas"],
-    "github": "",
-    "live": ""
-  },
-  {
-    "id": 7,
-    "name": "E-commerce Platform",
-    "description": "TypeScript-first full-stack e-commerce with React frontend and Node.js/Express backend — integrated 8 payment/logistics partners, driving $2M+ GMV. TypeScript type system reduced production bugs by 40%.",
-    "tech": ["TypeScript", "React", "Node.js", "Express", "PostgreSQL", "REST APIs"],
-    "github": "",
-    "live": ""
-  },
-  {
-    "id": 8,
-    "name": "Analytics Dashboard",
-    "description": "TypeScript/React analytics platform processing 500M+ viewer events/day — interactive ECharts visualizations for demographics, ratings, and engagement metrics. Sub-2s load time with server-side data aggregation via Python + Pandas.",
-    "tech": ["TypeScript", "React", "ECharts", "Python", "Pandas", "PostgreSQL"],
-    "github": "",
-    "live": ""
-  },
-  {
-    "id": 9,
-    "name": "ERP Inventory System",
-    "description": "Python/FastAPI backend with TypeScript/React frontend — consolidating 8 legacy systems into unified inventory and supply chain management. Automated month-end close from 5 days to 4 hours with real-time stock reconciliation.",
-    "tech": ["Python", "FastAPI", "TypeScript", "React", "PostgreSQL", "SQLAlchemy"],
+    "description": "Spark-driven data lake on AWS processing 12TB+ daily across 6 siloed sources — Spark ETL pipelines, Airflow orchestration, S3 raw zone with Glue catalog for BI and ML consumption. Reduced time-to-insight from 3 days to 4 hours.",
+    "tech": ["Spark", "Airflow", "AWS S3", "AWS Glue"],
     "github": "",
     "live": ""
   }

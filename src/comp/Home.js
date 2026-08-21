@@ -2,11 +2,10 @@ import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { MarkGithubIcon } from '@primer/octicons-react';
 
-const badges = ['Go Microservices', 'TypeScript', 'Data Pipelines', 'Cloud Native', 'Real-time Systems', 'Kubernetes'];
+const badges = ['Microservices', 'Frontends', 'ML Ops', 'Cloud Native'];
 
 const stats = [
     { value: '14+', label: 'yrs exp' },
-    { value: '12', label: 'eng teams' },
     { value: '50M+', label: 'events/day' },
     { value: '$320K', label: 'cloud saved' },
 ];
@@ -27,7 +26,7 @@ export default function Home({ theme }) {
                     <p className="home-eyebrow">Staff Software Engineer</p>
                     <h1 className="home-title">polyglot.dev</h1>
                     <p className="home-tagline">
-                        Senior Engineer specializing in Go microservices, TypeScript frontends, and Python data pipelines.
+                        Senior Engineer specializing in Microservices, frontends and data pipelines.
                         Building scalable systems from real-time streams to interactive dashboards.
                     </p>
                     <div className="home-stats">
@@ -46,7 +45,7 @@ export default function Home({ theme }) {
                     <div className="home-building">
                         <span className="home-building-dot" />
                         <span className="home-building-text">
-                            Building: High-performance Go microservices with gRPC and TypeScript dashboards
+                            Building: High-performance microservices and amazing frontends
                         </span>
                     </div>
                     <div className="home-links">

@@ -20,7 +20,7 @@ export default function TechStack({ theme }) {
                 <div id="ecTechStack" className="techstack-chart" />
             </div>
             <div className="pure-u-1 pure-u-lg-1-2 techstack-list-col">
-                <h2 className="page-title">Tech Stack</h2>
+                {/* <h2 className="page-title">Tech Stack</h2> */}
                 {data.map(category => {
                     const isGrouped = category.children?.some(c => c.children?.length > 0);
                     const color = category.itemStyle?.color ?? 'var(--color-primary)';
@@ -100,7 +100,7 @@ function drawSunburst(theme, setHovered) {
                 },
                 {
                     r0: '66%', r: '82%',
-                    label: { fontSize: 10, position: 'outside', padding: 3, silent: false },
+                    label: { fontSize: 10, position: 'inside', padding: 3, silent: false },
                     itemStyle: { borderWidth: 1 },
                 },
             ],
